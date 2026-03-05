@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+    <title>About MUSE</title>
+    <style>
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 1)),
+                url("./images/muse_background_halations.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: invert(100%);
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            position: relative;
+            isolation: isolate;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="logo">
+            <ul>
+                <div class="nav-left">
+                    <img src="./images/home.png" alt="Home">
+                    <a style="font-style: normal;" class="logoText2" href="./index.html">Home</a>
+                </div>
+                <div class="nav-right">
+                    <li><a style="font-style: normal;" class="logoText2" href="./about.html">About</a></li>
+                    <li><a style="font-style: normal;" class="logoText2" href="./items.html">Gallery</a></li>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+    <section style="margin-bottom: 200px;">
+        <div class="newsletter-container fadeIn">
+            <h1>Interested in more?</h1>
+            <p>Join the newsletter and keep exploring the world of art.</p>
+
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email..." required>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footerDisplay">
+            <p>MUSE</p>
+        </div>
+
+        <div class="footerText">
+            <p>&copy; 2026 MUSE by Mudit. All rights reserved.</p>
+            <p> Source: Unsplash</p>
+        </div>
+
+    </footer>
+</body>
+
+
+
+</html>
